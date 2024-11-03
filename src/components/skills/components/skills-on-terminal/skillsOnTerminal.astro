@@ -1,0 +1,40 @@
+---
+import TerminalIcon from '../../atoms/terminal-icon/TerminalIcon.astro';
+import Terminal from '../terminal/Terminal.astro';
+import './skills-on-terminal.css';
+---
+
+<Terminal nombre="tarunsai">
+	<div class="terminal__skills">
+		<h2>Skills</h2>
+		<div class="terminal__skills__container">
+			<TerminalIcon
+				src="/assets/mongodb.svg"
+				color="#0E6D61"
+				name="MongoDB"
+			/>
+			<TerminalIcon
+				src="/assets/nodejs.svg"
+				color="#4DAA51"
+				name="Node"
+			/>
+			<TerminalIcon
+				src="/assets/react.svg"
+				color="#00D1FF"
+				name="React"
+			/>
+			<TerminalIcon src="/assets/expressjs.svg" color="#6B6B6B" name="Express" />
+			<TerminalIcon src="/assets/css.svg" color="#00A3FF" name="CSS" />
+			<TerminalIcon src="/assets/html.svg" color="#EB7B17" name="HTML" />
+			<TerminalIcon src="/assets/javascript.svg" color="#FBE83F" name="JavaScript" />
+			<TerminalIcon
+				src="/assets/mongoose.svg"
+				color="#AC2121"
+				name="Mongoose"
+			/>
+			<TerminalIcon src="/assets/tailwind.svg" color="#08BBD2" name="Tailwind" />
+			<TerminalIcon src="/assets/redux.svg" color="#7D28A1" name="Redux" />
+			<TerminalIcon src="/assets/github.svg" color="#242C7E" name="Github" />
+		</div>
+	</div>
+</Terminal>

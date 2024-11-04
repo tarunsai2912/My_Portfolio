@@ -19,7 +19,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'https://i.postimg.cc/Gt2Hcjht/taskImg.jpg',
 		title: 'Pro Manage',
-		skills: ['React', 'Node', 'Express', 'MongoDB'],
+		skills: ['React', 'Node', 'Express', 'MongoDB', 'Github'],
 		descripcion:
 			'It is a full stack web application on creating, assigning and sharing tasks among different users and also gives analytics of every task.',
 		demoURL: 'https://pro-manage-cuvette-webapp.vercel.app/',
@@ -30,7 +30,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'https://i.postimg.cc/7Y7fq9gs/webstory-Img.jpg',
 		title: 'Share Story',
-		skills: ['React', 'Node', 'Express', 'MongoDB'],
+		skills: ['React', 'Node', 'Express', 'MongoDB', 'Github'],
 		descripcion:
 			'It is a full stack web application on creating, assigning and sharing tasks among different users and also gives analytics of every task.',
 		demoURL: 'https://web-story-mern-frontend.vercel.app/',
@@ -41,7 +41,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'https://i.postimg.cc/XYLNvzX8/quizImg.jpg',
 		title: 'Quizzie',
-		skills: ['React', 'Node', 'Express', 'MongoDB'],
+		skills: ['React', 'Node', 'Express', 'MongoDB', 'Github'],
 		descripcion:
 			'It is a full stack web application on creating and sharing quizzes which also gives a detailed analytics of each quiz.',
 		demoURL: 'https://quizzie-mern-frontend.vercel.app/',
@@ -52,7 +52,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'https://i.postimg.cc/3ww80FvH/jobfinder-Img.jpg',
 		title: 'Job Finder',
-		skills: ['React', 'Node', 'Express', 'MongoDB'],
+		skills: ['React', 'Node', 'Express', 'MongoDB', 'Github'],
 		descripcion:
 			'It is a full stack web application on creation of jobs and finding of jobs based on user requirements.',
 		demoURL: 'https://job-posting-frontend-eight.vercel.app/',
@@ -63,7 +63,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'https://i.postimg.cc/s2GLLBFh/pocketnotes-Img.jpg',
 		title: 'Pocket Notes',
-		skills: ['React', 'HTML', 'CSS', 'JavaScript'],
+		skills: ['React', 'HTML', 'CSS', 'JavaScript', 'Github'],
 		descripcion:
 			'It is a web application on notes taking app where user can take notes on different folders on different topics.',
 		demoURL: 'https://tarunsai2912.github.io/Pocket_Notes/',
@@ -85,7 +85,8 @@ const skillIcons = {
 	Node: 'skill-icons:nodejs-dark',
     Express: 'skill-icons:expressjs-dark',
 	MongoDB: 'skill-icons:mongodb',
-	HTML: 'skill-icons:html'
+	HTML: 'skill-icons:html',
+	Github: 'skill-icons:github-dark'
 };
 
 /**
